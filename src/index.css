@@ -3,3 +3,21 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.data-table {
+  padding: 2.5vw;
+}
+
+.center-txt {
+  text-align: center;
+}
+
+.app {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Clear bad border made by React Fixed Data Table */
+.fixedDataTableColumnResizerLineLayout_main {
+  border: none;
+}
